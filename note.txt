@@ -1,0 +1,66 @@
+GitHub  & Github
+-------------
+
+git - its tool to access Github 
+
+operations
+----------
+
+Repository - folder
+
+1.remote repositiry -all have access(github storage)
+2.local repositiry - only one can access(our system storage)
+
+Git operations
+---------------
+
+push - local repo to remote repo - upload new project and new updations
+clone - remote repo to local repo - download exact copy of project
+pull - remote repo to local repo - to download updations
+
+
+push
+------
+1.git add
+2.git commit
+3.git push
+
+
+
+commands to upload a repo
+----------------------------
+git init -  To  initialise git
+git status - shows the status of the git(shows any folder is to be added etc)
+             branch master-master the name of the branch created 
+             untracked files- files which are not being added to the staging area
+
+git add . - To add the files to staging area (note: . is given insted of the filename)
+git commit -m "chnage message" - to give the files to local repo
+
+git remote -v  -  To check the repo is connect or not ----output shows nothing then it is not connect
+
+git remote add abcd   link of the repo  - to connect repo to remote repo
+
+git push -u  abcd(var name) master(branch name) - To upload repo to remote repo
+
+Then give the username and password of your repository
+
+
+
+clone
+-----
+git clone link(repo link)
+
+
+pull
+------
+git pull linkk
+
+
+
+
+
+
+
+
+
